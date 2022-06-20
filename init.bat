@@ -1,4 +1,5 @@
-@ECHO ON REM Setting environment variables to run PostgreSQL
+@ECHO ON
+REM Setting environment variables to run PostgreSQL
 @SET PATH="%CD%\bin";%PATH%
 @SET PGDATA=%CD%\data
 @SET PGDATABASE=postgres
